@@ -1,0 +1,6 @@
+@LRU.LFU.Caching_HostAddress = http://localhost:5264
+
+GET {{LRU.LFU.Caching_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
