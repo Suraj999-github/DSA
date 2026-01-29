@@ -1,0 +1,6 @@
+@MedianDataStream_HostAddress = http://localhost:5124
+
+GET {{MedianDataStream_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

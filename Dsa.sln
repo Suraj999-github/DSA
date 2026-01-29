@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C2734FA8-80AA-4545-8437-6DE8D165E1A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LRU.LFU.Caching", "LRU.LFU.Caching\LRU.LFU.Caching.csproj", "{67950D91-A3A5-489B-A5DE-4B8E4BAF5460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LRU.LFU.Caching", "LRU.LFU.Caching\LRU.LFU.Caching.csproj", "{67950D91-A3A5-489B-A5DE-4B8E4BAF5460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianDataStream", "MedianDataStream\MedianDataStream.csproj", "{2A02EF04-BD03-4F2D-A10E-5F99DF0C8C11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{67950D91-A3A5-489B-A5DE-4B8E4BAF5460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67950D91-A3A5-489B-A5DE-4B8E4BAF5460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67950D91-A3A5-489B-A5DE-4B8E4BAF5460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A02EF04-BD03-4F2D-A10E-5F99DF0C8C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A02EF04-BD03-4F2D-A10E-5F99DF0C8C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A02EF04-BD03-4F2D-A10E-5F99DF0C8C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A02EF04-BD03-4F2D-A10E-5F99DF0C8C11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{67950D91-A3A5-489B-A5DE-4B8E4BAF5460} = {C2734FA8-80AA-4545-8437-6DE8D165E1A9}
+		{2A02EF04-BD03-4F2D-A10E-5F99DF0C8C11} = {C2734FA8-80AA-4545-8437-6DE8D165E1A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {589E67EC-C287-47FB-ADDA-823804F09190}
